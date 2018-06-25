@@ -81,7 +81,6 @@ export const f3 = (a) => {
 }
 
 export const f4 = (cb) => {
-  this.x = 0
   clearTimeout(this.timeout)
   this.timeout = setTimeout(() => {
     cb()
